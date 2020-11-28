@@ -10,8 +10,8 @@ group :development do
  gem 'sqlite3', '~> 1.4'
 end
 group :production do
- gem 'pg', '0.15.1'
- gem 'rails_12factor','0.0.2'
+ gem 'pg', '~> 1.1.4'
+ gem 'rails_12factor','~> 0.0.3'
 end
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
